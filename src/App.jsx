@@ -9,6 +9,7 @@ function App() {
 	return (
 		<div>
 			Company Website
+			by ayush
 		</div>
 	)
 }
