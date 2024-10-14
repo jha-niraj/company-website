@@ -1,17 +1,27 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import './output.css'
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
+import Services from './components/Services'
+import Feedback from './components/feedback'
+import ScrollMoveComponent from './components/NewComponent'
+import ContactUs from './components/ContactUs'
 
 function App() {
 	const [count, setCount] = useState(0)
 
 	return (
-		<div>
-			Company Website
-			by ayush
+		<div className='app bg-black text-white'>
+			<NavBar/>
+			<Hero/>
+			<Services/>
+			<Feedback/>
+			<ContactUs/>
+			{/* <ScrollMoveComponent/> */}
+			{/* <p className='text-#ee0181 font-bold font-ramaraja'>hello tailwind</p> */}
 		</div>
 	)
 }
 
-export default App
+export default App;
