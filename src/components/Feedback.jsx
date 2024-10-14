@@ -1,7 +1,7 @@
 import React from 'react'
 import downRight from './Assets/down-right.png'
 import downrightt from './Assets/down-rightt.png'
-import FeedbackLine from './feedbackLine'
+import FeedbackLine from './FeedbackLine'
 
 const Feedback = () => {
 
@@ -21,4 +21,4 @@ const Feedback = () => {
   )
 }
 
-export default Feedback
+export default Feedback;

@@ -3,8 +3,8 @@ import './App.css'
 import './output.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
-import Services from './components/Services'
-import Feedback from './components/feedback'
+import Services from './components/Services';
+import Feedback from './components/Feedback'
 import ScrollMoveComponent from './components/NewComponent'
 import ContactUs from './components/ContactUs'
 

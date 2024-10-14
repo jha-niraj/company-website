@@ -1,5 +1,5 @@
 import React from 'react'
-import FeedbackItems from './feedbackItems'
+import FeedbackItems from './FeedbackItems'
     
 
     
