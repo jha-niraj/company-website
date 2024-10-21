@@ -7,6 +7,9 @@ import Services from './components/Services';
 import Feedback from './components/Feedback'
 import ScrollMoveComponent from './components/NewComponent'
 import ContactUs from './components/ContactUs'
+// import Products from './components/products'
+import Aim from './components/Aim'
+import Projects from './components/Projects'
 
 function App() {
 	const [count, setCount] = useState(0)
@@ -15,8 +18,11 @@ function App() {
 		<div className='app bg-black text-white'>
 			<NavBar/>
 			<Hero/>
+			<Aim/>
 			<Services/>
+			<Projects/>
 			<Feedback/>
+			{/* <Products/> */}
 			<ContactUs/>
 			{/* <ScrollMoveComponent/> */}
 			{/* <p className='text-#ee0181 font-bold font-ramaraja'>hello tailwind</p> */}

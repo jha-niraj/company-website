@@ -1,18 +1,18 @@
 import React,{useState} from "react";
-import contactGif from './Assets/Customersupport2.gif'
 import ContactForm from "./ContactForm";
 
 const ContactUs = () => {
 
   return (
-    <div className="">
-      <h1 className="text-5xl font-semibold text-center m-20 mb-5">SEND US A <span className="text-blue-500">MESSAGE</span></h1>
-      <p className="text-center text-2xl ">Have questions or feedback? We're here to help. Send us a message, and we'll respond within 2 hours</p>
-      <div className="xl:flex justify-around items-center w-screen mt-16">
+    <div className="mx-10">
+      <div data-aos="fade-up">
+        <h1 className="text-6xl leading-tight ">Hey! we are <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-300 bg-clip-text text-transparent">READY</span></h1>
+        <h1 className="text-6xl leading-tight ">to <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-300 bg-clip-text text-transparent">CONSULT YOU</span></h1>
+        <p className="text-xl ">Have questions or feedback? We're here to help. Send us a message, and we'll respond within 5 hours</p>
+      </div>
+      <div className="">
         <ContactForm/>
-        <div className="w-[50%]">
-            <img src={contactGif} alt="" className="w-[90%] sm:hidden xl:block" />
-        </div>
+        
         </div>
     </div>
   );
