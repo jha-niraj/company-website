@@ -21,12 +21,12 @@ const FeedbackItems = () => {
     return num;
   }
   return (
-    <div id='feedback-item' className='p-7 bg-white text-black text-xl min-h-80 min-w-80 border-gray-300 border-[1px] rounded-2xl'>
+    <div id='feedback-item' className='h-72 p-6 bg-gray-200 text-black min-h-72 min-w-72 border-gray-300 border-[1px] rounded-2xl'>
       <div id='profile' className='flex items-center gap-6'>
-        <img src={profiles[randomItem()]} className='h-16' alt="profile pic" />
-        <p className='text-2xl'>randome user</p>
+        <img src={profiles[randomItem()]} className='h-12' alt="profile pic" />
+        <p className='text-xl'>randome user</p>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut illo consequatur minus, possimus eos id quisquam at reiciendis quam libero voluptatem distinctio odit sed? Placeat officiis quaerat error architecto.</p>
+      <h1 className='text-m'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut illo consequatur minus, possimus eos id quisquam at reiciendis quam libero voluptatem distinctio odit sed? Placeat officiis quaerat error architecto.</h1>
       
     </div>
   )
